@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+    id 'org.hidetake.ssh' version '2.11.2'
+}
+
+apply from: "../buildSrc/shared.gradle"
+
+group = 'com.skywaet.hadoop.task1'
+version = '1.0'
